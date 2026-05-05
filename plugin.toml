@@ -1,0 +1,17 @@
+[plugin]
+name = "ascii"
+version = "1.1.0"
+description = "Render text as ASCII art banners in the terminal"
+author = "corvid-agent"
+license = "MIT"
+repository = "https://github.com/corvid-agent/fledge-plugin-ascii"
+keywords = ["ascii", "art", "banner", "text", "terminal"]
+min_fledge_version = "0.10.0"
+
+[plugin.commands.render]
+description = "Render text as an ASCII art banner"
+usage = "fledge ascii render <TEXT> [--font <FONT>]"
+
+[plugin.commands.fonts]
+description = "List available fonts"
+usage = "fledge ascii fonts"
